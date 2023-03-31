@@ -1,0 +1,28 @@
+.nav{
+    min-height: 100vh;
+    background-color: sandybrown;
+}
+
+.nav h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.nav_list{
+    margin: 0 0 20px 0;
+    padding: 10px;
+    list-style: none;
+}
+
+.nav_item{
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 12px;
+    background-color: #3F2722;
+    color: sandybrown;
+}
+
+.nav_item:hover{
+    transform: scale(1.2);
+    transition: all 0.5s ease;
+}
